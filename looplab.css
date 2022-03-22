@@ -1,0 +1,45 @@
+body{
+    background: black;
+    color:white;
+}
+.navbar {
+    border-bottom: 3px solid blue;
+    opacity: 0.8;
+}
+#home-section {
+    background-image: url('looplab.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section .dark-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+ }
+#home-section .home-inner{
+    padding-top: 150px;
+}
+#home-section .card-form{
+    opacity: 0.8;
+}
+#home-section .fas {
+    color:rgb(0, 119, 139);
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ab{
+    font-size: 1.5rem;
+}
+.mobile-img{
+    height: 244px;
+    width: 390px;
+}
+.overflow{
+    overflow-x: hidden !important;
+}
